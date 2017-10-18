@@ -1,7 +1,8 @@
     .header {
         &.content {
             .customer-welcome {
-                display: block;
+                display: none;
+   
             }
         }
         &.content:extend(.abs-add-clearfix all) {
