@@ -1,0 +1,75 @@
+<!DOCTYPE <html>
+<head>
+	<meta charset="utf-8" />
+	<title>Create new customer Account</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<style>
+	form{
+
+    font-family: verdana;
+  padding: 50px;
+  }
+</style>
+<body>
+      <h1>Create new customer Account</h1>
+
+<form action="#" novalidate>
+ 
+ <fieldset>
+   <legend>Contact information</legend>
+      <label for="First">Enter First Name</label>
+     <input type="text" name='first' placeholder="First Name"><br>
+      <label for="Second">Enter Last Name</label>
+     <input type="text" name='Second' placeholder="Last Name"><br>
+     <input type="radio" name="gender" value="Male">Male<Br>
+      <input type="radio" name="gender" value="Female"> Female<Br>
+      <label for="company">Enter your company</label>
+      <input type="text" placeholder="Your company" name="company"><br>
+      <label for="phone">Enter phone number</label>
+      <input type="tel" placeholder="Enter your phone number" name='phone'><br>
+   
+      <textarea rows="10" cols="45" name="text" placeholder="About me..."></textarea>
+
+  </fieldset>
+   <fieldset>
+   <legend>Address</legend>
+   <label for="street">Enter street address</label>
+     <input type="text" placeholder="Street Address" name='street' ><br>
+        <label for="street">Enter city</label>
+     <input type="text" placeholder="City" name='city'><br>
+     <label for="hero">Please select your State</label><br>
+          <select size="3"  name="hero" >
+             
+                <option value="Rivne">Rivne</option>
+                <option  value="Ternopil">Ternopil</option>
+                <option value="Kyiv">Kyiv</option>
+                <option value="Jitomir">Jitomir</option>
+        </select><br>
+  <label for="zip">Enter ZIP code</label>
+      <input type="text" placeholder="ZIP/ POSTAL CODE" name='zip'><br>
+      <label for="COUNTRY">Please select your Country</label><br>
+          <select size="3"  name="COUNTRY" >
+             
+                <option value="Ukraine">Ukraine</option>
+                <option  value="Russia">Russia</option>
+                <option value="USA">USA</option>
+                <option value="KNDR">KNDR</option>
+        </select><br>
+    
+  </fieldset>
+  <fieldset>
+       <legend>Sign-in Information</legend>
+       <label for="email">Enter email </label>
+       <input type="email" placeholder="enter email" name='email'><br>
+       <label for="password">Enter password</label>
+        <input type="password" placeholder="enter password" name='password'><br>
+        <label for="confirm">Confirm password</label>
+             <input type="password" placeholder="confirm password" name='confirm'><br>
+  </fieldset>
+  <button type="submit" novalidate >Create an account</button>
+</form>
+
+</body>	
+</html>
