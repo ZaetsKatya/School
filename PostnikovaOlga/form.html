@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>Contact information</title>
+ </head>
+ <body>
+<form novalidate>
+
+<fieldset>
+<legend>Personal information:</legend>
+
+<label for="firstname">First name</label>
+<input name="firstname" id="firstname" type="text">
+
+<label for="lastname">Last name</label>
+<input name="lastname" id="lastname" type="text">
+
+<label for="lastname">Gender</label><br>
+<input type="radio" id="gender" name="gender" value="male" checked> Male<br>
+<input type="radio" id="gender" name="gender" value="female"> Female<br>
+
+<label for="company">Company</label>
+<input name="company" id="company" type="text">
+
+<label for="phone">Phone number</label>
+<input name="phone" id="phone" type="tel">
+
+<label for="about">About me</label>
+<textarea  name="about" id="about" rows="4" cols="50"></textarea>
+</fieldset>
+
+<fieldset>
+<legend>Address</legend>
+<label for="address_street">Street</label>
+<input id="address_street" name="address_street" type="text">
+
+<label for="address_city">City:</label>
+<input id="address_city" name="address_city" type="text">
+
+<label for="address_state">State:</label>
+<select id="address_state" name="address_state">
+    <option value="state1">state1</option>
+    <option value="state2">state2</option>
+    <option value="state3">state3</option>
+    <option value="state4">state4</option>
+</select>
+
+<label for="address_postalcode">Postal code</label>
+<input id="address_postalcode" name="address_postalcode" type="number" >
+
+<label for="address_country">Country</label>
+<select id="address_country" name="address_country">
+    <option value="country1">country1</option>
+    <option value="country2">country2</option>
+    <option value="country3">country3</option>
+    <option value="country4">country4</option>
+</select>
+</fieldset>
+
+<fieldset>
+<legend>Sign-in information</legend>
+<label for="email">Email</label>
+<input type="email" name="id" name="email">
+
+<label for="psw">Password</label>
+<input id="psw" name="psw1" type="password" >
+Confirm password:
+<input id="psw" name="psw2" type="password" >
+</fieldset>
+
+<input type="submit" value="Submit">
+<input type="reset" value="reset">
+</form>
+ 
+ </body>
+</html>
