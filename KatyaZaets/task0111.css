@@ -1,0 +1,70 @@
+body{position: relative;}
+td{
+	width:20px;
+	height: 20px;
+	background: white;
+	border:1px solid black;
+	}
+tr:nth-child(odd) td:nth-child(odd){background: black}
+
+
+tr:nth-child(even) td:nth-child(even) {background:black}
+
+
+.conteiner{ 
+		    width: 500px;
+		    height: 200px;
+		    position: absolute;
+		    right: 0px;
+		   bottom:-200px;
+		    
+		    }
+
+					
+.conteiner img{
+				float:right;
+				}
+
+#text {	
+		margin-top: 10px;
+		padding: 2px 50px 6px 4px;
+		
+}				
+
+p:first-letter{
+	color:red;
+	
+	font-size: 20px;
+}		
+
+
+
+
+.one p{
+	text-transform: uppercase;
+		
+	   }
+
+a{
+	text-decoration: none;
+
+ }
+
+a:hover{
+		
+		font-size: 20px;
+		}
+
+
+a:visited{
+		color:black;
+}		
+
+li{
+	list-style: none;
+
+}
+
+li:before{
+			content:"-";
+}
