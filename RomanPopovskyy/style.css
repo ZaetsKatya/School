@@ -1,0 +1,62 @@
+td{
+	width:10px;
+	height:10px;
+}
+
+ 
+tr:nth-child(even) td:nth-child(2n+1) {
+    background: black; 
+  }
+  tr:nth-child(odd) td:nth-child(2n) {
+    background: black; 
+  }
+
+
+  .container{
+  	width: 500px;
+  	height:200px;
+  	margin:0 auto;
+  	position: relative;
+  	border:1px solid grey;
+  }
+  .wrapper{
+  	position: absolute;
+  	bottom: 0;
+  	right:0;
+  }
+
+.one{
+	font-family: verdana;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color:green;
+	text-align: left;
+}
+.two{
+	font-family: tahoma;
+	font-weight: 400;
+	font-size: 17px;
+	color:white;
+	border:3px solid blue;
+	border-radius: 25px;
+	text-shadow: 1px 2px 2px white;
+	padding: 30px;
+	background: black;
+	text-align: justify;
+
+}
+.three{
+	margin-top: 20px;
+	font-family: tahoma;
+	font-weight: 400;
+	font-size: 17px;
+	border:5px solid green;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	text-shadow: 1px 2px 2px white;
+	padding: 30px;
+	background: orange;
+	text-decoration: underline; 
+	text-align: center;
+}
