@@ -43,8 +43,13 @@ border:1px solid red;
 width:100px;
 height:100px;
  transition: transform;
-animation: trans infinite alternate  ease-in-out 5s;
-transition:rotate(90deg);}
+animation: trans 1 alternate  ease-in-out 5s;
+}
 
-@keyframes trans{from {transform:translate(10px);} to {transform:translate(300px);}
-} 
+@keyframes trans{from {transform:translateX(10px);} 	
+			 25%{transform:translateX(300px); background-color: grey;}   
+				 50%{transform:translate(300px,300px);background-color: red; }
+				75% {transform:translate(10px,300px);background-color: yellow; }    
+				 to {transform:translate(10px,0px);background-color: orange; } 
+}  
+
